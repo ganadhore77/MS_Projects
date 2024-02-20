@@ -1,0 +1,11 @@
+package com.irctc.service;
+
+import com.irctc.bindings.Passenger;
+import com.irctc.bindings.Ticket;
+
+public interface TicketService {
+
+	public Ticket bookTicket(Passenger p);
+	
+	public List<Ticket> getAllTickets();
+}
