@@ -1,0 +1,19 @@
+package com.myt.service;
+
+import org.springframework.stereotype.Service;
+
+import com.myt.binding.Passenger;
+import com.myt.binding.Ticket;
+
+@Service
+public class MakeMyTripService {
+
+	public Ticket bookTicket(Passenger p) {
+		
+		
+		String url = "192.168.1.88";
+		String url1 = "192.168.1.254";
+		return null;
+	}
+	
+}

@@ -1,0 +1,23 @@
+package com.myt.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.myt.service.MakeMyTripService;
+
+@RestController
+public class MakeMyTripController {
+
+	@Autowired
+	private MakeMyTripService service;
+	
+	@PostMapping("/bookMyTicket")
+	public ResponseEntity<?> bookMyTicket(){
+		
+		
+		return null;
+	}
+	
+}

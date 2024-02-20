@@ -1,0 +1,17 @@
+package com.myt;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MakeMyTripController {
+
+	@PostMapping("/bookMyTicket")
+	public ResponseEntity<?> bookMyTicket(){
+		
+		
+		return null;
+	}
+	
+}

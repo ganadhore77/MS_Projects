@@ -1,12 +1,11 @@
 package com.irctc.service;
 
 import java.util.Collection;
+import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
 import com.irctc.bindings.Passenger;
@@ -23,8 +22,7 @@ public class TicketServiceImpl implements TicketService {
 		Ticket t = new Ticket();
 		
 		Random r = new Random();
-		int id = r.nextInt(5);		
-		
+		int id = r.nextInt(5);			
 		
 //		BeanUtils.copyProperties(p, t);
 		
@@ -39,6 +37,8 @@ public class TicketServiceImpl implements TicketService {
 		
 		map.put(id, t);
 		System.out.println(t);
+		Date date = new Date();
+		System.out.println("Timestamp : "+date);
 		return t;
 	}
 

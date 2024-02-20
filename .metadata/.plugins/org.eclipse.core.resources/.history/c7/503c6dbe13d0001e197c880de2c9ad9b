@@ -1,0 +1,18 @@
+package com.myt.service;
+
+import org.springframework.stereotype.Service;
+
+import com.myt.binding.Passenger;
+import com.myt.binding.Ticket;
+
+@Service
+public class MakeMyTripService {
+
+	public Ticket bookTicket(Passenger p) {
+		
+		
+		
+		return null;
+	}
+	
+}

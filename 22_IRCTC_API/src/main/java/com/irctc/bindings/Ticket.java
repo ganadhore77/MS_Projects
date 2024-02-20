@@ -10,6 +10,7 @@ public class Ticket {
 	private String doj;
 	private String trainNum;
 	private String status;
+	
 	public Integer getTicketNum() {
 		return ticketNum;
 	}
