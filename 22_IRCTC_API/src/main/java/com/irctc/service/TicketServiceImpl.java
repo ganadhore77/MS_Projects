@@ -34,7 +34,7 @@ public class TicketServiceImpl implements TicketService {
 		t.setTo(p.getTo());
 		t.setTrainNum(p.getTrainNum());
 		t.setStatus("CONFIRMED");
-		
+		System.out.println(p);
 		map.put(id, t);
 		System.out.println(t);
 		Date date = new Date();
