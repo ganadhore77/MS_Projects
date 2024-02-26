@@ -1,9 +1,0 @@
-package com.irctc.service;
-
-import com.irctc.bindings.Passenger;
-
-public interface TicketService {
-
-	public Ticket bookTicket(Passenger p);
-	
-}

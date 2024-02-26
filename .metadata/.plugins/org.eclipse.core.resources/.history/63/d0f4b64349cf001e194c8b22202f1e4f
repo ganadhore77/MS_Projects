@@ -1,7 +1,0 @@
-package com.irctc.service;
-
-public interface TicketService {
-
-	public Ticket bookTicket
-	
-}
