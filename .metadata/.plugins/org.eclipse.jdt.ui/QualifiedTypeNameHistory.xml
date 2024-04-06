@@ -41,4 +41,6 @@
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.awt.print.Book"/>
     <fullyQualifiedTypeName name="org.springframework.data.rest.core.config.RepositoryRestConfiguration"/>
+    <fullyQualifiedTypeName name="org.springframework.web.reactive.function.client.WebClient"/>
+    <fullyQualifiedTypeName name="com.service.QuoteService"/>
 </qualifiedTypeNameHistroy>
