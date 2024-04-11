@@ -8,11 +8,11 @@ spring:
       - id: welcome-api
         uri: lb://WELCOME-API
         predicates:
-        - Path=/welcome
+        - Path=/api1/**
       - id: greet-api
         uri: lb://GREET-API
         predicates:
-        - Path=/greet
+        - Path=/api2/**
   
   application:
     name: API-GATEWAY

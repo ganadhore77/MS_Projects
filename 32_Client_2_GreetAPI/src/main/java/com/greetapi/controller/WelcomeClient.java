@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient(name="WELCOME-API")
 public interface WelcomeClient {
 
-	@GetMapping("/welcome")
+	@GetMapping("/api1/welcome")
 	public String invokeWelcomeAPI();
 	
 }
