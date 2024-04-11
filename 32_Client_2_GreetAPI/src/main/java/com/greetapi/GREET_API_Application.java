@@ -12,7 +12,7 @@ public class GREET_API_Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GREET_API_Application.class, args);
-		System.out.println("GREET_API_Application start on Port : 2222");
+		System.out.println("GREET_API_Application start on Port : ");
 	}
 
 }

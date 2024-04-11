@@ -8,8 +8,8 @@ spring:
         url: http://localhost:8030/
   
     
-server:
-  port: 2222
+#server:
+#  port: 2222
   
 management:
   endpoints:
