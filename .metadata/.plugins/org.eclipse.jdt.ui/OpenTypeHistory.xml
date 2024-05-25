@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=33_API_GATEWAY/C:\/Users\/de\/.m2\/repository\/org\/springframework\/cloud\/spring-cloud-gateway-server\/4.1.0\/spring-cloud-gateway-server-4.1.0.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.cloud=/=/maven.artifactId=/spring-cloud-gateway-server=/=/maven.version=/4.1.0=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.cloud.gateway.filter(GlobalFilter.class[GlobalFilter" modifiers="1537" timestamp="1712819172281"/>
+</typeInfoHistroy>

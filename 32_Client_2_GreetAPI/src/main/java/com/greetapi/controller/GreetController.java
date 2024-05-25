@@ -20,11 +20,11 @@ public class GreetController {
 	public String getMsg() {
 		
 		String port = environment.getProperty("server.port");
-		
+	
 		String invokeWelcomeAPI = welcomeClient.invokeWelcomeAPI();
 		
-		String greetMsg = "Good Morning GREET API";
-		System.out.println("Welcome to GREET API");
+		String greetMsg = "Good Morning GREET API ("+ port +")" ;
+		System.out.println("Welcome to GREET API "+ port);
 		return greetMsg.concat(" :: "+invokeWelcomeAPI);
 		
 	}
